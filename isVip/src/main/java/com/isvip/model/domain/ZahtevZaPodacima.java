@@ -19,6 +19,7 @@ public class ZahtevZaPodacima {
     private Zaposleni zaposleni;
     private Klijent klijent;
     private Operator operator;
+    private int i;
 
     public ZahtevZaPodacima() {
     }
