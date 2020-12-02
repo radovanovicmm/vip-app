@@ -10,23 +10,23 @@ package com.isvip.model.domain;
  * @author Marko
  */
 public class Mesto {
-    private int postanskiBroj;
+    private int idMesto;
     private String naziv;
 
     public Mesto() {
     }
 
     public Mesto(int postanskiBroj, String naziv) {
-        this.postanskiBroj = postanskiBroj;
+        this.idMesto = postanskiBroj;
         this.naziv = naziv;
     }
 
     public int getPostanskiBroj() {
-        return postanskiBroj;
+        return idMesto;
     }
 
     public void setPostanskiBroj(int postanskiBroj) {
-        this.postanskiBroj = postanskiBroj;
+        this.idMesto = postanskiBroj;
     }
 
     public String getNaziv() {
@@ -46,7 +46,7 @@ public class Mesto {
             return false;
         }
         final Mesto other = (Mesto) obj;
-        if (this.postanskiBroj != other.postanskiBroj) {
+        if (this.idMesto != other.idMesto) {
             return false;
         }
         return true;
