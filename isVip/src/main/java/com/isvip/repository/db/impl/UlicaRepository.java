@@ -5,7 +5,7 @@
  */
 package com.isvip.repository.db.impl;
 
-import com.isvip.model.domain.Operator;
+import com.isvip.model.domain.Ulica;
 import com.isvip.repository.db.DbRepository;
 import java.util.List;
 
@@ -13,30 +13,30 @@ import java.util.List;
  *
  * @author Marko
  */
-public class RepositoryOperator implements DbRepository<Operator>{
+public class UlicaRepository implements DbRepository<Ulica>{
 
     @Override
-    public void add(Operator param) throws Exception {
+    public void add(Ulica param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public List<Operator> getAll() throws Exception {
+    public List<Ulica> getAll() throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void save(Operator param) throws Exception {
+    public void save(Ulica param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void delete(Operator param) throws Exception {
+    public void delete(Ulica param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public Operator get(int id) throws Exception {
+    public Ulica get(int id) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

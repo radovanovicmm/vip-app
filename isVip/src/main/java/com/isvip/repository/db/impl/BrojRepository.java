@@ -13,7 +13,7 @@ import java.util.List;
  *
  * @author Marko
  */
-public class RepositoryBroj implements DbRepository<Broj>{
+public class BrojRepository implements DbRepository<Broj>{
 
     @Override
     public void add(Broj param) throws Exception {

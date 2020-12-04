@@ -5,7 +5,7 @@
  */
 package com.isvip.repository.db.impl;
 
-import com.isvip.model.domain.ZahtevZaPodacima;
+import com.isvip.model.domain.Klijent;
 import com.isvip.repository.db.DbRepository;
 import java.util.List;
 
@@ -13,30 +13,30 @@ import java.util.List;
  *
  * @author Marko
  */
-public class RepositoryZahtevZaPodacima implements DbRepository<ZahtevZaPodacima>{
+public class KlijentRepository implements DbRepository<Klijent>{
 
     @Override
-    public void add(ZahtevZaPodacima param) throws Exception {
+    public void add(Klijent param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public List<ZahtevZaPodacima> getAll() throws Exception {
+    public List<Klijent> getAll() throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void save(ZahtevZaPodacima param) throws Exception {
+    public void save(Klijent param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void delete(ZahtevZaPodacima param) throws Exception {
+    public void delete(Klijent param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public ZahtevZaPodacima get(int id) throws Exception {
+    public Klijent get(int id) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

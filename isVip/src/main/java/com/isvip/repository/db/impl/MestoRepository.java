@@ -5,7 +5,7 @@
  */
 package com.isvip.repository.db.impl;
 
-import com.isvip.model.domain.Pozicija;
+import com.isvip.model.domain.Mesto;
 import com.isvip.repository.db.DbRepository;
 import java.util.List;
 
@@ -13,30 +13,32 @@ import java.util.List;
  *
  * @author Marko
  */
-public class RepositoryPozicija implements DbRepository<Pozicija>{
+public class MestoRepository implements DbRepository<Mesto>{
+
+    
 
     @Override
-    public void add(Pozicija param) throws Exception {
+    public void add(Mesto param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public List<Pozicija> getAll() throws Exception {
+    public List<Mesto> getAll() throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void save(Pozicija param) throws Exception {
+    public void save(Mesto param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void delete(Pozicija param) throws Exception {
+    public void delete(Mesto param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public Pozicija get(int id) throws Exception {
+    public Mesto get(int id) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
