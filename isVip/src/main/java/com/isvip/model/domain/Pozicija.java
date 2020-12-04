@@ -13,12 +13,12 @@ public class Pozicija {
     private int idPozicija;
     private String naziv;
     private Pozicija pozicija;
-    private OrganizacionaJedinica orgJed;
+    private OrganizacionaJed orgJed;
 
     public Pozicija() {
     }
 
-    public Pozicija(int idPozicija, String naziv, Pozicija pozicija, OrganizacionaJedinica orgJed) {
+    public Pozicija(int idPozicija, String naziv, Pozicija pozicija, OrganizacionaJed orgJed) {
         this.idPozicija = idPozicija;
         this.naziv = naziv;
         this.pozicija = pozicija;
@@ -49,11 +49,11 @@ public class Pozicija {
         this.pozicija = pozicija;
     }
 
-    public OrganizacionaJedinica getOrgJed() {
+    public OrganizacionaJed getOrgJed() {
         return orgJed;
     }
 
-    public void setOrgJed(OrganizacionaJedinica orgJed) {
+    public void setOrgJed(OrganizacionaJed orgJed) {
         this.orgJed = orgJed;
     }
     

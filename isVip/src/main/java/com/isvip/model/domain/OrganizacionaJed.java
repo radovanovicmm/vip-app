@@ -9,14 +9,14 @@ package com.isvip.model.domain;
  *
  * @author Marko
  */
-public class OrganizacionaJedinica {
+public class OrganizacionaJed {
     private int idOrgJed;
     private String naziv;
 
-    public OrganizacionaJedinica() {
+    public OrganizacionaJed() {
     }
 
-    public OrganizacionaJedinica(int idOrgJed, String naziv) {
+    public OrganizacionaJed(int idOrgJed, String naziv) {
         this.idOrgJed = idOrgJed;
         this.naziv = naziv;
     }

@@ -5,7 +5,7 @@
  */
 package com.isvip.repository.db.impl;
 
-import com.isvip.model.domain.OrganizacionaJedinica;
+import com.isvip.model.domain.OrganizacionaJed;
 import com.isvip.repository.db.DbRepository;
 import java.util.List;
 
@@ -13,30 +13,30 @@ import java.util.List;
  *
  * @author Marko
  */
-public class OrgJedinicaRepository implements DbRepository<OrganizacionaJedinica>{
+public class OrganizacionaJedRepository implements DbRepository<OrganizacionaJed>{
 
     @Override
-    public void add(OrganizacionaJedinica param) throws Exception {
+    public void add(OrganizacionaJed param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public List<OrganizacionaJedinica> getAll() throws Exception {
+    public List<OrganizacionaJed> getAll() throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void save(OrganizacionaJedinica param) throws Exception {
+    public void save(OrganizacionaJed param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void delete(OrganizacionaJedinica param) throws Exception {
+    public void delete(OrganizacionaJed param) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public OrganizacionaJedinica get(int id) throws Exception {
+    public OrganizacionaJed get(int id) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
